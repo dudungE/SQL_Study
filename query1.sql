@@ -4,7 +4,6 @@ select member_name, member_addr from member;
 
 select * from member where member_name = '아이유';
 
-select from
 
 
 -- 인덱스 생성
@@ -25,4 +24,5 @@ begin
 end // DELIMITER;
 
 CALL myProc();
+
 
