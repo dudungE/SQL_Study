@@ -1,5 +1,4 @@
-# Chapter 03 SQL 기본문법
+# 혼자공부하는 MySQL
 
-# Welcome to StackEdit!
+혼자공부하는 MySQL 공부 내용 정리 레포지토리 입니다
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
