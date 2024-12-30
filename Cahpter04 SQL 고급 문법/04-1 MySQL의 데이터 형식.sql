@@ -51,7 +51,10 @@ prepare mySQL from'select mem_name, height from member order by height limit ?';
 execute mySQL using @count;
 -- prepare로 쿼리만 준비해놓고 execute로 실행함 
 
--- 데이터 형 변환 
+
+
+
+-- 3. 데이터 형 변환 
 -- 명시적 변환 cast, convert
 
 select avg(price) as '평균 가격' from buy;
@@ -79,4 +82,3 @@ select concat('100', '200') + 300;
 
 
 
--- 3. 데이터 형 변환 
