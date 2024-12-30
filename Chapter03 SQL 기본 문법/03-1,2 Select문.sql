@@ -106,6 +106,27 @@ having sum(price*amount) > 1000
 order by sum(price*amount) desc;
 
 
+-- -------------------------
+
+-- 03-3 데이터 변경을 위한 SQL문
+use market_db;
+create table hongong1 (toy_id INT, toy_name CHAR(4), age INT);
+show tables;
+insert into hongong1 values (1, '우디', 25);
+insert into hongong1 (toy_id, toy_name) values (1, '버즈');
+
+select * from hongong1;
+
+insert into hongong1 (toy_name, age, toy_id ) values ('제시', 20, 3);
+
+create table 
+
+
+
+
+
+
+
 
 
 
