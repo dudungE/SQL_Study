@@ -1,3 +1,4 @@
+-- 스토어드 프로시저의 생성 
 USE market_db;
 DROP PROCEDURE IF EXISTS user_proc;
 DELIMITER $$
@@ -11,6 +12,7 @@ CALL user_proc();
 
 DROP PROCEDURE user_proc;
 
+-- 매개변수의 사용 
 USE market_db;
 DROP PROCEDURE IF EXISTS user_proc1;
 DELIMITER $$
@@ -76,7 +78,7 @@ BEGIN
 END $$
 DELIMITER ;
 
-CALL ifelse_proc ('오마이걸');
+CALL ifelse_0proc ('오마이걸');
 
 SELECT YEAR(CURDATE()), MONTH(CURDATE()), DAY(CURDATE());
 
@@ -113,4 +115,4 @@ BEGIN
 END $$
 DELIMITER ;
 
-CALL dynamic_proc ('member');
+CALL dynamic_proc ('buy');
